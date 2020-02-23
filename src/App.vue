@@ -13,6 +13,9 @@ import TitleCard from './components/frontpage/TitleCard.vue';
 import AboutMe from './components/frontpage/AboutMe.vue';
 import Skills from './components/frontpage/Skills.vue';
 import SocialLinks from './components/SocialLinks.vue';
+// import Divider from './components/utility/Divider.vue';
+
+/* eslint-disable no-new */
 
 export default {
     name: 'App',
@@ -20,7 +23,8 @@ export default {
         TitleCard,
         AboutMe,
         SocialLinks,
-        Skills
+        Skills,
+        // Divider
     },
     data: () => ({
         name: "ImperialWater"

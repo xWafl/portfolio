@@ -31,8 +31,9 @@ export default Vue.extend({
 <style>
     .socialLinks {
         width: 100%;
-        height: 160px;
+        /* height: 160px; */
         /* background-color: rgb(102, 168, 255); */
+        background-color: #ccc;
         color: #ddd;
         font-size: 60px;
     }

@@ -4,9 +4,7 @@
             <h2 class="aboutmetitle">{{ name }}</h2>
             <img id="profileimg" src="../../assets/waterdrop.png" />
         </div>
-        <div class="divider">
-        
-        </div>
+        <Divider dividerType="regular"></Divider>
         <div class="righthalf">
             <h2 class="whoami">Who am I?</h2>
             <p class="mydesc">I'm a developer with a focus on front-end. My specialty is in JavaScript although I do know some other languages such as TypeScript and C. I'm always looking to learn something new!</p>
@@ -16,10 +14,15 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Divider from "../utility/Divider.vue"
+
 export default Vue.extend({
     name: "AboutMe",
     props: {
         name: String
+    },
+    components: {
+        Divider
     }
 })
 </script>
@@ -49,14 +52,6 @@ export default Vue.extend({
             display: flex;
             height: 500px;
         }
-        .divider {
-            width: 2px;
-            border: 4px solid #eee;
-            border-radius: 5px;
-            background-color: #eee;
-            height: 90%;
-            margin-top: 2.5%;
-        }
         .lefthalf {
             width: calc(50% - 5px);
         }
@@ -78,14 +73,6 @@ export default Vue.extend({
         }
     }
     @media only screen and (max-width: 900px) {
-        .divider {
-            height: 2px;
-            border: 4px solid #eee;
-            border-radius: 5px;
-            width: 90%;
-            margin: 5%;
-            background-color: #eee;
-        }
         .lefthalf {
             width: 100%;
         }
