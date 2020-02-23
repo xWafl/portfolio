@@ -18,7 +18,7 @@
                 <h3 class="skillMinorHeading">Proficient</h3>
                 <font-awesome-icon class="skillIcon" :icon="['fab', 'node-js']" />
                 <br>
-                //TODO: GET RID OF THE WATER
+                <!--TODO: GET RID OF THE WATER-->
                 <font-awesome-icon class="skillIcon" :icon="['fas', 'glass-whiskey']" />
                 <br>
                 <img style="width: 50px; height: 50px" src="../../assets/electronicon.svg" />

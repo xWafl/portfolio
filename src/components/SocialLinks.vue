@@ -98,4 +98,16 @@ export default Vue.extend({
         text-decoration: none;
         color: white;
     }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:active {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
 </style>
