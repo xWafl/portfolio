@@ -22,7 +22,7 @@ export default Vue.extend({
         handleScroll () {
             const titleElement = document.getElementById("title");
             // console.log(window.scrollY + "|" + titleElement.clientHeight);
-            titleElement.style.opacity = (1 - window.scrollY / +titleElement.clientHeight * 1.75).toString();
+            titleElement.style.opacity = (1 - window.scrollY / +titleElement.clientHeight / 2).toString();
         }
     },
     created () {
@@ -50,8 +50,8 @@ export default Vue.extend({
     .title {
         position: absolute;
         text-align: center;
+        /* top: 400px; */
         width: 100%;
-        top: 10%;
         color: rgb(64, 64, 255);
     }
     @media only screen and (min-width: 901px) {
@@ -64,8 +64,20 @@ export default Vue.extend({
             font-size: 30px;
         }
     }
-    .name {
-        padding-top: 220px;
+    @media only screen and (min-height: 601px) {
+        .title {
+            top: 20%;
+        }
+    }
+    @media only screen and (max-height: 600px) {
+        .title {
+            top: 15%;
+        }
+    }
+    @media only screen and (max-height: 400px) {
+        .title {
+            top: 9%;
+        }
     }
     .subtitle {
         margin-top: -20px;

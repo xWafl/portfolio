@@ -5,6 +5,9 @@
         <SocialLinks></SocialLinks>
         <br>
         <Skills></Skills>
+        <br>
+        <br>
+        <br>
     </div>
 </template>
 
