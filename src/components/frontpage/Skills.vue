@@ -76,6 +76,11 @@ export default Vue.extend({
     .skillChart {
         display: flex;
     }
+    @media only screen and (max-width: 350px) {
+        .skillChart {
+            display: block;
+        }
+    }
     .skillIcon {
         font-size: 60px;
     }

@@ -64,19 +64,24 @@ export default Vue.extend({
             font-size: 30px;
         }
     }
-    @media only screen and (min-height: 601px) {
+    @media only screen and (min-height: 901px) {
         .title {
             top: 20%;
         }
     }
-    @media only screen and (max-height: 600px) {
+    @media only screen and (max-height: 900px) {
         .title {
             top: 15%;
         }
     }
+    @media only screen and (max-height: 600px) {
+        .title {
+            top: 10%;
+        }
+    }
     @media only screen and (max-height: 400px) {
         .title {
-            top: 9%;
+            top: 5%;
         }
     }
     .subtitle {
