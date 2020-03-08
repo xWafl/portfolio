@@ -40,8 +40,11 @@ export default Vue.extend({
         width: 100%;
         background-image: url('../../assets/water2.jpg');
         background-position: center;
-        background-attachment: fixed;
+        /*background-attachment: scroll;*/
         background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .fadeIn {
@@ -51,6 +54,7 @@ export default Vue.extend({
         position: absolute;
         text-align: center;
         /* top: 400px; */
+        top: 55vh;
         width: 100%;
         color: rgb(64, 64, 255);
     }
@@ -58,32 +62,38 @@ export default Vue.extend({
         .title {
             font-size: 40px;
         }
+        .parallax {
+            background-attachment: fixed;
+        }
     }
     @media only screen and (max-width: 900px) {
         .title {
             font-size: 30px;
         }
-    }
-    @media only screen and (min-height: 901px) {
-        .title {
-            top: 20%;
+        .parallax {
+            /*background-attachment: scroll;*/
         }
     }
-    @media only screen and (max-height: 900px) {
-        .title {
-            top: 15%;
-        }
-    }
+    /*@media only screen and (min-height: 901px) {*/
+    /*    .title {*/
+    /*        top: 20%;*/
+    /*    }*/
+    /*}*/
+    /*@media only screen and (max-height: 900px) {*/
+    /*    .title {*/
+    /*        top: 15%;*/
+    /*    }*/
+    /*}*/
     @media only screen and (max-height: 600px) {
         .title {
-            top: 10%;
+            top: 55vh;
         }
     }
-    @media only screen and (max-height: 400px) {
-        .title {
-            top: 5%;
-        }
-    }
+    /*@media only screen and (max-height: 400px) {*/
+    /*    .title {*/
+    /*        top: 5%;*/
+    /*    }*/
+    /*}*/
     .subtitle {
         margin-top: -20px;
         color: blue;
