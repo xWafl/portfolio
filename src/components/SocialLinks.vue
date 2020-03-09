@@ -17,9 +17,9 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // library.add(faUserSecret)
-library.add(fab)
+library.add(fab);
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 /* eslint-disable no-new */
 
@@ -36,6 +36,7 @@ export default Vue.extend({
         background-color: #ccc;
         color: #ddd;
         font-size: 60px;
+        font-family: Verdana, Arial;
     }
     .socialMediaIcon {
         padding: 10px;
