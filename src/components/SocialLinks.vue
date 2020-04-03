@@ -36,7 +36,7 @@ export default Vue.extend({
         background-color: #ccc;
         color: #ddd;
         font-size: 60px;
-        font-family: Verdana, Arial;
+        font-family: Verdana, Arial,sans-serif;
     }
     .socialMediaIcon {
         padding: 10px;

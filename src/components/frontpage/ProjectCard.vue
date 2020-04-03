@@ -51,9 +51,10 @@ export default Vue.extend({
         height: calc(300px * 1.5);
         margin: 20px;
         font-family:'Courier New', Courier, monospace;
-        box-shadow: 0px 0px 20px #999;
+        box-shadow: 0 0 20px #999;
         position: relative;
         background-position: center;
+        background-repeat: no-repeat;
         user-select: none;
         flex-shrink: 0;
     }
@@ -72,15 +73,15 @@ export default Vue.extend({
         height: 100%;
         width: 100%;
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
         background-color: azure;
         color: #222;
         font-weight: bold;
     }
     .projectDetails:hover {
         opacity: 0.8;
-        box-shadow: 0px 0px 10px #222;
+        box-shadow: 0 0 10px #222;
         transition: 0.6s ease;
     }
     .projectHeader {

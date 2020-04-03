@@ -74,26 +74,11 @@ export default Vue.extend({
             /*background-attachment: scroll;*/
         }
     }
-    /*@media only screen and (min-height: 901px) {*/
-    /*    .title {*/
-    /*        top: 20%;*/
-    /*    }*/
-    /*}*/
-    /*@media only screen and (max-height: 900px) {*/
-    /*    .title {*/
-    /*        top: 15%;*/
-    /*    }*/
-    /*}*/
     @media only screen and (max-height: 600px) {
         .title {
             top: 55vh;
         }
     }
-    /*@media only screen and (max-height: 400px) {*/
-    /*    .title {*/
-    /*        top: 5%;*/
-    /*    }*/
-    /*}*/
     .subtitle {
         margin-top: -20px;
         color: blue;

@@ -31,16 +31,16 @@
                         v-if="currentAccordion === 2"
                         style="width: 50px; height: 50px"
                         src="https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg"
-                    />
-                    <img
-                        v-if="currentAccordion === 2"
-                        style="width: 50px; height: 50px"
-                        src="https://www.svgrepo.com/show/7344/sql-file-format-symbol.svg"
-                    />
+                        alt="Electron"/>
                     <img
                         v-if="currentAccordion === 3"
+                        style="width: 50px; height: 50px"
+                        src="https://www.svgrepo.com/show/7344/sql-file-format-symbol.svg"
+                        alt="SQL"/>
+                    <img
+                        v-if="currentAccordion === 2"
                         src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
-                    />
+                        alt="TypeScript"/>
                 </div>
                 <div class="accordionDataMessages">
                     {{ accordionDataEntry.data }}
@@ -138,7 +138,7 @@
     }
     .slide-fade-enter, .slide-fade-leave-to
         /* .slide-fade-leave-active for <2.1.8 */ {
-        width: 0%;
+        width: 0;
         opacity: 0;
         background-color: #fff;
         color: #fff;
@@ -152,6 +152,6 @@
     }
     .skillIcon {
         font-size: 60px;
-        margin: 0px 10px 10px 10px;
+        margin: 0 10px 10px 10px;
     }
 </style>
