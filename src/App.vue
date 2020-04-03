@@ -71,7 +71,7 @@
                 :backgroundUrl="typrrLogo"
                 hoverHeader="Street Typer X"
                 hoverText="A simple typing site I made to measure your typing speed. I made it with NuxtJS."
-                clickUrl="https://handwashr.firebaseapp.com/"
+                clickUrl="https://xwafl.github.io/Street-Typer-X"
             ></ProjectCard>
         </div>
         <br>
